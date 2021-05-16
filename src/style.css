@@ -31,5 +31,5 @@ a:hover {
   color: inherit;
 }
 .active {
-  color: rgb(46, 38, 38) !important;
+  text-decoration: underline;
 }
