@@ -6,16 +6,22 @@ const Navbar = () => {
     <nav>
       <ul>
         <li>
-          <NavLink to="/">Home</NavLink>
+          <NavLink exact activeClassName="active" to="/">
+            Home
+          </NavLink>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <NavLink activeClassName="active" to="/about">
+            About
+          </NavLink>
         </li>
         <li>
-          <Link to="/users">Users</Link>
+          <NavLink activeClassName="active" to="/users">
+            Users
+          </NavLink>
         </li>
         <li>
-          <Link to="/topics">Topics</Link>
+          <NavLink to="/topics">Topics</NavLink>
         </li>
       </ul>
     </nav>

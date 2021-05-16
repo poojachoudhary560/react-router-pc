@@ -9,6 +9,7 @@ export default function App() {
     <Router>
       <div>
         <Navbar />
+        <div className="hr-break" />
         <Routes />
       </div>
     </Router>
