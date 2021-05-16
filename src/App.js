@@ -1,11 +1,16 @@
-import React from "react";
-import "./style.css";
+import React from 'react';
+import './style.css';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Navbar from './Navbar';
+import Routes from './Routes';
 
 export default function App() {
   return (
-    <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
-    </div>
+    <Router>
+      <div>
+        <Navbar />
+        <Routes />
+      </div>
+    </Router>
   );
 }
