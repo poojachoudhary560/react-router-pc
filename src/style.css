@@ -16,17 +16,20 @@ ul {
 li {
   display: inline-block;
   padding: 8px;
+  color: #ffffff;
 }
 li:hover {
-  background-color: white;
+  background-color: #ffffff;
+  color: orange;
 }
 a {
   text-decoration: none;
-  color: #ffffff;
 }
+
+a:visited,
 a:hover {
-  color: orange;
+  color: inherit;
 }
 .active {
-  color: orange;
+  color: rgb(46, 38, 38) !important;
 }
